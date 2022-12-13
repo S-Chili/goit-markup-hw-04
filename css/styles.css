@@ -154,6 +154,10 @@
 
 /* features */
 
+.features-none {
+    display: none;
+}
+
 .features {
     padding-bottom: 0;
 }
@@ -179,19 +183,19 @@
     background-color: var(--tittle-background-color);
 }
 
-.antenna::before {
+.icon-antenna::before {
     background-image: url(../images/antenna.svg);
 }
 
-.clock::before {
+.icon-clock::before {
     background-image: url(../images/clock.svg);
 }
 
-.diagramm::before {
+.icon-diagramm::before {
     background-image: url(../images/diagramm.svg);
 }
 
-.astronaut::before {
+.icon-astronaut::before {
     background-image: url(../images/astronaut.svg);
 }
 
@@ -458,3 +462,23 @@
 .last > li:last-child {
     margin-bottom: 0;
   }
+
+  .mra {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    outline: 1px solid black;
+    list-style: none;
+}
+
+.button {
+    padding: 0;
+    border: none;
+}
+
+.button-icon {
+    width: 100px;
+    height: 100px;
+}
+
+./images/symbol-defs.svg#icon-clock
