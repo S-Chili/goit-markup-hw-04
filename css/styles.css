@@ -256,6 +256,31 @@
     border-radius: 0px 0px 4px 4px;
 }
 
+.actions {
+    display: flex;
+    width: 206px;
+    height: 44px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.button-network {
+    padding: 0;
+    border: none;
+}
+
+.button-icon {
+    width: 44px;
+    height: 44px;
+}
+
+.actions-item {
+    margin-right: 10px;
+}
 /* button */
 
 .button {
@@ -462,23 +487,3 @@
 .last > li:last-child {
     margin-bottom: 0;
   }
-
-  .mra {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    outline: 1px solid black;
-    list-style: none;
-}
-
-.button {
-    padding: 0;
-    border: none;
-}
-
-.button-icon {
-    width: 100px;
-    height: 100px;
-}
-
-./images/symbol-defs.svg#icon-clock
