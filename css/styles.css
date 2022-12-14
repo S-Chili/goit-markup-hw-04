@@ -125,7 +125,6 @@
 /* decision hero */
 
 .decision {
-    width: 1600px;
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -270,6 +269,7 @@
 }
 
 .button-network {
+    width: 44px;
     height: 44px;
     padding: 0;
     border: none;
@@ -278,8 +278,8 @@
 
 /* DONT WORK */
 .button-icon {
-    width: 44px;
-    height: 44px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
     fill: #AFB1B8;
 }
