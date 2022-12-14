@@ -172,6 +172,15 @@
     width: 270px;
 }
 
+.feat-for-svg {
+    display: block;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--tittle-background-color);
+    text-align: center;
+    padding: 25px 100px;
+}
 
 .features-none {
     margin: 0;
