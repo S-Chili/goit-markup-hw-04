@@ -263,6 +263,7 @@
     padding: 0;
     border: none;
     border-radius: 50%;
+    fill: #AFB1B8;
     background-color: var(--white-color);
 }
 
@@ -275,10 +276,6 @@
 
 .button-icon:hover {
     fill: var(--white-color);
-}
-
-.for-hover:hover {
-    fill: #FFF;
 }
 
 /* WORK */
