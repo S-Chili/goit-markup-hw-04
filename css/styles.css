@@ -257,15 +257,16 @@
 }
 
 .actions {
-    display: flex;
-    width: 206px;
-    height: 44px;
+    display: inline-flex;
     margin: auto;
     margin-bottom: 30px;
-    padding: 0;
-    list-style: none;
-    justify-content: center;
+    margin-right: 32px;
+    margin-left: 32px;
+}
 
+.actions-item {
+    width: 44px;
+    height: 44px;
 }
 
 .button-network {
@@ -281,7 +282,6 @@
     height: 44px;
     cursor: pointer;
     fill: #AFB1B8;
-    background-color: var(--white-color);
 }
 
 .button-icon:hover {
