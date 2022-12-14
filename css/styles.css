@@ -278,11 +278,15 @@
     width: 44px;
     height: 44px;
     cursor: pointer;
-    fill: #FFFFFF;
+    fill: #AFB1B8;
 }
 
 .button-icon:hover {
-    fill: #2196F3;
+    fill: #FFF;
+}
+
+.button-network:hover {
+    background-color: var(--accent-color);
 }
 
 .actions-item {
