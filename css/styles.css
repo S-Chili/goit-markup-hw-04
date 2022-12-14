@@ -182,6 +182,11 @@
     padding: 25px 100px;
 }
 
+.for-svg {
+    width: 70px;
+    height: 70px;
+}
+
 .features-none {
     margin: 0;
 }
