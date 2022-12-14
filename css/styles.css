@@ -274,6 +274,7 @@
     padding: 0;
     border: none;
     border-radius: 50%;
+    background-color: var(--white-color);
 }
 
 /* DONT WORK */
@@ -281,10 +282,9 @@
     width: 20px;
     height: 20px;
     cursor: pointer;
-    fill: #AFB1B8;
 }
 
-.button-icon:hover {
+.for-hover:hover {
     fill: #FFF;
 }
 
