@@ -281,6 +281,7 @@
     height: 44px;
     cursor: pointer;
     fill: #AFB1B8;
+    background-color: var(--white-color);
 }
 
 .button-icon:hover {
