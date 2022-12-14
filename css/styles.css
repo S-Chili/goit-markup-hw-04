@@ -267,6 +267,14 @@
     background-color: var(--white-color);
 }
 
+.for-hover {
+    fill: #AFB1B8;
+}
+
+.for-hover:hover {
+    fill: var(--white-color);
+}
+
 /* DONT WORK */
 .button-icon {
     width: 20px;
@@ -274,14 +282,9 @@
     cursor: pointer;
 }
 
-.button-icon:hover {
-    /* fill: var(--white-color); */
-}
-
 /* WORK */
 .button-network:hover {
     background-color: var(--accent-color);
-    fill: var(--white-color);
 }
 
 .actions-item {
