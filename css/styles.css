@@ -172,31 +172,6 @@
     width: 270px;
 }
 
-.features-item::before {
-    display: block;
-    content: " ";
-    margin-bottom: 30px;
-    height: 120px;
-    background-size: contain;
-    background-position: center;
-    background-color: var(--tittle-background-color);
-}
-
-.icon-antenna::before {
-    background-image: url(../images/antenna.svg);
-}
-
-.icon-clock::before {
-    background-image: url(../images/clock.svg);
-}
-
-.icon-diagramm::before {
-    background-image: url(../images/diagramm.svg);
-}
-
-.icon-astronaut::before {
-    background-image: url(../images/astronaut.svg);
-}
 
 .features-none {
     margin: 0;
