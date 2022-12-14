@@ -275,6 +275,7 @@
     border-radius: 50%;
 }
 
+/* DONT WORK */
 .button-icon {
     width: 44px;
     height: 44px;
@@ -286,6 +287,7 @@
     fill: #FFF;
 }
 
+/* WORK */
 .button-network:hover {
     background-color: var(--accent-color);
 }
