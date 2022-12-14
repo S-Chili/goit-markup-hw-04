@@ -117,6 +117,19 @@
     text-decoration: none;
 }
 
+.nav-hover {
+    fill: #757575;
+}
+
+.nav-hover:hover {
+    fill: #2196F3;
+}
+
+.icon-nav {
+    display: inline-block;
+    margin-right: 10px;
+}
+
 .nav__item .link:hover,
 .nav__item .link:focus {
     color: var(--accent-color);
@@ -242,6 +255,7 @@
     width: 270px;
     background: var(--white-color);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .actions {
@@ -275,14 +289,13 @@
     fill: var(--white-color);
 }
 
-/* DONT WORK */
 .button-icon {
     width: 20px;
     height: 20px;
     cursor: pointer;
+
 }
 
-/* WORK */
 .button-network:hover {
     background-color: var(--accent-color);
 }
@@ -335,6 +348,40 @@
     padding-left: 24px;
     font-size: 16px;
     line-height: 1.9;
+}
+
+/* Regular customers */
+
+.customers {
+    display: inline-flex;
+    margin: auto;
+}
+
+.logo-item {
+    width: 170px;
+    height: 92px;
+    margin-left: 30px;
+}
+
+.logo-item:first-child {
+    margin-left: 0;
+}
+
+.button-logo {
+    cursor: pointer;
+}
+
+.button-customers {
+    width: 170px;
+    height: 92px;
+    padding: 0;
+    border: 1px solid;
+    color: rgba(175, 177, 184, 1);
+    background-color: var(--white-color);
+}
+
+.button-customers:hover {
+    border-color: var(--accent-color);
 }
 
 /* Portfolio - filters */
@@ -404,6 +451,10 @@
     border-bottom: 1px solid rgba(238, 238, 238, 1);
     border-right: 1px solid rgba(238, 238, 238, 1);
     border-left: 1px solid rgba(238, 238, 238, 1);
+}
+
+.shadow {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .apps-element:nth-child(3n) {
@@ -495,4 +546,39 @@
 
 .last > li:last-child {
     margin-bottom: 0;
-  }
+}
+
+.footer-logo {
+    display: inline-flex;
+}
+
+.button-footer {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    fill: #FFF;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.foot-hover:hover {
+    background-color: var(--accent-color);
+}
+
+.join-in {
+    margin: 0;
+    padding-bottom: 20px;
+    color: var(--white-color);
+    
+}
+
+.join-us {
+    margin-left: 70px;
+}
+
+.footer-join {
+    display: inline-flex;
+    margin: auto;
+
+}
