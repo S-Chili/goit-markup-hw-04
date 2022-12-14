@@ -264,6 +264,7 @@
     border: none;
     border-radius: 50%;
     background-color: var(--white-color);
+
 }
 
 /* DONT WORK */
@@ -273,12 +274,18 @@
     cursor: pointer;
 }
 
-.for-hover:hover {
-    fill: #FFF;
+.for-hover {
+    fill: #AFB1B8;
+}
+
+.for-hover:hover
+.for-hover:focus {
+    fill: var(--white-color);
 }
 
 /* WORK */
-.button-network:hover {
+.button-network:hover
+.button-network:focus {
     background-color: var(--accent-color);
 }
 
