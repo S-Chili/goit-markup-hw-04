@@ -408,6 +408,10 @@
     fill: #AFB1B8;
 }
 
+.clients-hover:hover {
+    fill: var(--accent-color);
+}
+
 .link-customers:hover {
     border-color: var(--accent-color);
 }
