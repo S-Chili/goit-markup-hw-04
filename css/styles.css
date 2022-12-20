@@ -200,6 +200,7 @@
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
+    border-radius: 4px;
     background-color: var(--tittle-background-color);
 }
 
@@ -618,9 +619,10 @@
 
 .join-in {
     margin: 0;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     color: var(--white-color);
-    
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .join-us {
