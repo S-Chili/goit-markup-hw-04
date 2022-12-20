@@ -342,6 +342,10 @@
     letter-spacing: 0.06em;
 }
 
+.button:active {
+    background-color: rgba(24, 140, 232, 1);
+}
+
 /* team */
 
 .team-member {
